@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.line {
+    color: #999;
+    border-bottom: 1px solid #999;
+    margin: 50px 0;
+}
+.parent4t4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.children16 {
+    width: 25%;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: right;
+    color: #fff;
+    padding: 3px;
+    
+}
+.parent2t2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+.children4 {
+    width: 50%;
+    height: 100px;
+    background-color: lavender;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: right;
+    color: #fff;
+    padding: 3px;
+    
+}
+.parent6 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.children6 {
+    width: 16.6%;
+    height: 100px;
+    background-color: rgb(199, 253, 148);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: right;
+    color: #fff;
+    padding: 3px;
+    
+}
