@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="sanitizecss" href="./sanitize.css">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="sanitizecss" href="./sanitize.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>html and css test</title>
-</head>
-<body>
-    <div class="line">a.</div>
-    
-    <div class="parent4t4">
+  </head>
+  <body>
+    <section class="grid">
+      <div class="line">1-a.</div>
+
+      <div class="parent4t4">
         <div class="children16">01</div>
         <div class="children16">02</div>
         <div class="children16">03</div>
@@ -27,29 +28,60 @@
         <div class="children16">14</div>
         <div class="children16">15</div>
         <div class="children16">16</div>
-    </div>
+      </div>
 
-    <div class="line">b.</div>
+      <div class="line">1-b.</div>
 
-    <div class="parent2t2">
+      <div class="parent2t2">
         <div class="children4">01</div>
         <div class="children4">02</div>
         <div class="children4">03</div>
         <div class="children4">04</div>
-    </div>
+      </div>
 
-    <div class="line">c.</div>
+      <div class="line">1-c.</div>
 
-    <div class="parent6">
+      <div class="parent6">
         <div class="children6">01</div>
         <div class="children6">02</div>
         <div class="children6">03</div>
         <div class="children6">04</div>
         <div class="children6">05</div>
         <div class="children6">06</div>
-    </div>
+      </div>
+    </section>
 
-</body>
+    <section class="sign-in-form">
+      <div class="line">2.</div>
 
+      <h1>Sign in</h1>
 
+      <form action="" class="form">
+        <table class="form-table">
+          <tr>
+            <th>
+              <label for="email" class="email">Your email</label>
+            </th>
+            <td>
+              <input type="text" class="input" id="email" />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="" class="password">Password</label>
+            </th>
+            <td>
+              <input type="text" class="password" id="password" />
+            </td>
+          </tr>
+        </table>
+        <div class="button">
+          <button class="button-sign-in">Sign in</button>
+        </div>
+        <p class="sign-up">
+          Are you new? You're going to love it.<a href="#">Sign up now</a>
+        </p>
+      </form>
+    </section>
+  </body>
 </html>
