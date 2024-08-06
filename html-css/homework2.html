@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="sanitizecss" href="./sanitize.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="sign-in-form">
+      <div class="line">2.</div>
+
+      <h1 class="headline">Sign in</h1>
+
+      <form action="" class="form" id="form">
+        <table class="form-table">
+          <tr class="label-row">
+            <th>
+              <label for="email" class="email">Your email:</label>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                class="input"
+                id="email"
+                placeholder="test@test.com"
+              />
+            </td>
+          </tr>
+          <tr class="label-row">
+            <th>
+              <label for="password" class="password">Password:</label>
+            </th>
+          </tr>
+          <tr>
+            <td>
+              <input
+                type="text"
+                class="password"
+                id="password"
+                placeholder="********"
+              />
+            </td>
+          </tr>
+        </table>
+        <div class="button">
+          <p><button class="button-sign-in" id="button">Sign in</button></p>
+          <span class="text-invitation"
+            >Are you new? You're going to love it.
+            <a href="#">Sign up now</a></span
+          >
+        </div>
+      </form>
+    </section>
+    <div class="return"><a href="../index.html">>>Back to index</a></div>
+    <script src="../database/script.js"></script>
+  </body>
+</html>
