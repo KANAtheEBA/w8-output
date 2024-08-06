@@ -1,102 +1,153 @@
 @charset "UTF-8";
 
 body {
-    font-family: "Noto Sans JP", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans", "Noto Sans", Meiryo, sans-serif;
+  font-family: "Noto Sans JP", "Helvetica Neue", Arial,
+    "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans", Meiryo,
+    sans-serif;
 }
-
 * {
-    box-sizing: border-box;
-    background-color: #fff;
+  box-sizing: border-box;
 }
 .line {
+  color: #999;
+  border-bottom: 1px solid #999;
+  margin: 50px 0;
+}
+.headline {
+  text-align: center;
+  font-size: 33px;
+}
+.return {
     color: #999;
-    border-bottom: 1px solid #999;
-    margin: 50px 0;
+    margin-top: 120px;
 }
-.headline{
-    text-align: center;
-    font-size: 33px;
+.return a {
+    color: #999;
+    text-decoration: none;
 }
+/* index */
+.index-hl {
+    font-size: 300px;
+    margin: 0;
+    padding: 0;
+    line-height: 300px;
+
+}
+.menu {
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/main_visual.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+
+}
+.menu-table {
+    position: absolute;
+    background-color: transparent;
+    height: 400px;
+    z-index: 10;
+    color:#fff;
+    font-size: 100px;
+    font-weight: lighter;
+    margin: 40px 25px;
+}
+.menu-table a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu-table a:hover {
+    background-color: #ffffff7a;
+
+}
+@media screen and (max-width: 768px) {
+    .index-hl {
+        font-size: 170px;
+    }
+    .menu-table {
+        font-size: 60px;
+    }
+}
+
 /* grids */
 .parent4t4 {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .children16 {
-    width: 25%;
-    height: 100px;
-    background-color: lightblue;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    text-align: right;
-    color: #fff;
-    padding: 3px;
-    
+  width: 25%;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  text-align: right;
+  color: #fff;
+  padding: 3px;
 }
 .parent2t2 {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .children4 {
-    width: 50%;
-    height: 100px;
-    background-color: lavender;
-    border: 1px solid #fff;
-    border-radius: 10px;
-    text-align: right;
-    color: #fff;
-    padding: 3px;
-    
+  width: 50%;
+  height: 100px;
+  background-color: lavender;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  text-align: right;
+  color: #fff;
+  padding: 3px;
 }
 .parent6 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 .children6 {
-    width: 16.6%;
-    height: 100px;
-    background-color: rgb(199, 253, 148);
-    border: 1px solid #fff;
-    border-radius: 10px;
-    text-align: right;
-    color: #fff;
-    padding: 3px;
-    
+  width: 16.6%;
+  height: 100px;
+  background-color: rgb(199, 253, 148);
+  border: 1px solid #fff;
+  border-radius: 10px;
+  text-align: right;
+  color: #fff;
+  padding: 3px;
 }
 
 /* form */
-
 .form {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 .form-table {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .form-table th {
-    text-align: left;
+  text-align: left;
 }
 input {
-    width: 500px;
-    height: 40px;
-    padding: 10px;
-    background-color: rgb(252, 237, 219);
-    border-radius: 10px;
-    border: none;
+  width: 450px;
+  height: 40px;
+  padding: 10px;
+  background-color: rgb(252, 237, 219);
+  border-radius: 10px;
+  border: none;
 }
 .button {
-    text-align: center;
+  text-align: center;
 }
 .button-sign-in {
-    margin: 20px;
-    padding: 10px;
-    width: 500px;
-    border: none;
-    border-radius: 10px;
-    background-image: linear-gradient(40deg, #fce043 0%, #fb7ba2 74%);
-    font-size: 17px;
-    text-align: center;
-    cursor: pointer;
+  margin: 20px;
+  padding: 10px;
+  width: 450px;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(40deg, #fce043 0%, #fb7ba2 74%);
+  font-size: 17px;
+  margin: 10px auto;
+  cursor: pointer;
+}
+.text-invitation a {
+    text-decoration: none;
 }
